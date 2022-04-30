@@ -119,3 +119,23 @@ p {
     padding: 5px;
     margin: 0 10px;
 }
+
+#how-to-play {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 150%;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border: black 4px solid;
+}
+
+#how-to-play h2 h3 {
+    font-size: 200%;
+    font-family: 'kanit', sans-serif;
+}
