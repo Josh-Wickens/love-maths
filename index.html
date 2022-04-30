@@ -41,35 +41,38 @@
                 </div>
             </div>
         </div>
-        <div id="below-game-area">
-            <div id="rules">
-                <button class="hit-stick-buttons" id="rules">
-                    How To Play
-                </button>
-            </div>
-
-            <div id="button-area">
-
-                <button data-type="hit" class="hit-stick-buttons" id="hit">
-                    HIT!
-                </button>
-                <button data-type="stick" class="hit-stick-buttons" id="stick">
-                    STICK!
-                </button>
-                <button data-type="reset" class="hit-stick-buttons" id="play-again">
-                    PLAY AGAIN!
-                </button>
-            </div>
-
-            <id id="scores">
-                <p>Computer = <span id="computer-score">0</span></p>
-                <p><span class="player-name">Player</span> = <span id="player-score">0</span></p>
-            </id>
+    </div>
+    <div id="below-game-area">
+        <div id="rules">
+            <button class="hit-stick-buttons" id="rule-button">
+                How To Play
+            </button>
         </div>
 
-    </div>
+        <div id="button-area">
 
-    <!--how to play screen-->
+            <button data-type="hit" class="hit-stick-buttons" id="hit">
+                HIT!
+            </button>
+            <button data-type="stick" class="hit-stick-buttons" id="stick">
+                STICK!
+            </button>
+            <button data-type="reset" class="hit-stick-buttons" id="play-again">
+                PLAY AGAIN!
+            </button>
+        </div>
+
+        <div id="scores">
+            <div>
+                <p>Computer = <span id="computer-score">0</span></p>
+            </div>
+            <div>
+                <p><span class="player-name">Player</span> = <span id="player-score">0</span></p>
+            </div>
+
+        </div>
+    </div>
+    <!--how to play screen (wont display until user clicks 'how to play'. Will no longer show when user presses 'play game')-->
     <div id="how-to-play">
         <div>
             <h2>How To Play Twenty1</h2>
@@ -80,17 +83,28 @@
         </div>
 
         <div>
-            <p>The aim of the game is to get as close to the number 21 as possible. If you go over 21 then you are bust
+            <p>The aim of the game is to get as close to the number 21 as possible. If you go over 21 then you
+                are bust
                 (no
-                longer in the round). The computer must gain a score of 16 or higher to stick. Player can stick on any
-                number they choose. If the computer goes bust as well as the player, then no one wins the round. Numbers
+                longer in the round). The computer must gain a score of 16 or higher to stick. Player can stick
+                on any
+                number they choose. If the computer goes bust as well as the player, then no one wins the round.
+                Numbers
                 can
                 only be used once per round (so if you receive
-                an 8, then neither you or the computer can receive an 8 for the rest of the round. So try to remember
+                an 8, then neither you or the computer can receive an 8 for the rest of the round. So try to
+                remember
                 what
-                has come out previously to predict what numbers will be coming out!). First to win 5 rounds wins the
-                game.
+                has come out previously to predict what numbers will be coming out!). Closest to 21 wins the
+                round.
+                First to win 5 rounds wins the
+                game!.
             </p>
+        </div>
+        <div>
+            <button class="hit-stick-buttons" id="play-game">
+                PLAY!
+            </button>
         </div>
     </div>
 

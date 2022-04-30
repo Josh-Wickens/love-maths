@@ -18,6 +18,9 @@ p {
     font-weight: 400;
 }
 
+button:hover {
+    background-color: lightgreen;
+}
 
 #logo {
     font-family: 'Orelega one', cursive;
@@ -123,19 +126,25 @@ p {
 #how-to-play {
     height: auto;
     width: auto;
-    display: flex;
+    display: none;
     flex-direction: column;
     margin: 20px;
     padding: 20px;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 150%;
     align-items: center;
     justify-content: center;
     background-color: beige;
     border: black 4px solid;
 }
 
-#how-to-play h2 h3 {
+#how-to-play,
+h2,
+h3 {
     font-size: 200%;
     font-family: 'kanit', sans-serif;
+}
+
+#how-to-play,
+p {
+    font-size: 150%;
 }
